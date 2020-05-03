@@ -1,0 +1,47 @@
+.nav-detail{
+    align-items: flex-end;
+    position: absolute;
+}
+.navbar-brand:hover{
+    font-size: 20;
+}
+nav{
+    font-weight: 800;
+    box-shadow: 0px  0px  5px grey;
+    font-family: 'Baloo 2', cursive;
+
+}
+.jumbotron{
+    margin : 15px;
+    font-family: 'Baloo 2', cursive;
+    border-radius: 15px;
+}
+.score{
+    padding-left: 10%;
+}
+.row{
+    padding-left: 10%;
+    margin: 10px;
+}
+#reset-button{
+    padding-left: 50%;
+    align-content: center;
+}
+.winner{
+    color:green;
+}
+.loser{
+    color: red;
+}
+.scores{
+    padding-left: 30%;
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+    margin-right: 30%;
+    align-items: baseline;
+    background-color: rgb(108, 108, 194);
+    border-radius: 15px;
+}
+#vs{
+    padding-left: 17.5%
+}

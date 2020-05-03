@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Score-keeper</title>
+        <link href="https://fonts.googleapis.com/css?family=Baloo+2:400,700|Baloo+Tamma+2|Raleway:200,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <container>
+            <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#">SCORE-KEEPER</a>
+                    
+                </nav>
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-4">Get started by adding player-names</h1>
+                        <p class="lead">Click on the respective buttons to add/subtract score</p>
+                        <form>
+                            <div class="form-group">
+                                <label for="Player1">Player 1</label>
+                                <input type="text" class="form-control" id="player1">
+                                </div>
+                          </form>
+                          <form>
+                            <div class="form-group">
+                                <label for="Player 2">Player 2</label>
+                                <input type="text" class="form-control" id="player2">
+                                </div>
+                          </form>
+                          <form>
+                            <div class="form-group">
+                                <label for="Max Score">Max Score</label>
+                                <input type="number" class="form-control" id="maxScore">
+                                </div>
+                          </form>
+                        
+                    </div>
+                </div>
+                
+                <div>
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <strong>Max Score set to 5</strong> 
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>               
+            </div>
+       
+        </container>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl">
+                    <div class="row">
+                      <div class="col">
+                          <button type="button" class="btn btn-primary" id="bPlayer1">Player 1</button>
+                      </div>    
+                      <div class="col">
+                          
+                              <h1 id="score1">0</h1>
+                          
+                          
+                      </div>
+                      
+                    </div>
+                  
+              </div>
+              
+              <div class="col-xl" id="vs">
+                <h1 class score>V/S</h1>
+              </div>
+              
+              <div class="col-xl">
+                <div class="row">
+                  <div class="col">
+                      <h1 id="score2">0</h1>
+                      </div>
+                      <div class="col">
+                        <button type="button" class="btn btn-success" id="bPlayer2">Player 1</button>
+                    </div>    
+                    
+                    </div>
+                  
+              </div>
+          
+              
+            </div>
+          </div>
+          <div id="reset-button">
+            <button type="button" class="btn btn-danger" id="bReset">Reset Scores</button>
+            
+          </div>
+          
+              <script type="text/javascript" src="script.js"></script>
+        </body>
+</html>
